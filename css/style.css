@@ -1,0 +1,28 @@
+body {
+	font-size: 10em;
+	text-align: center;
+	vertical-align: middle;
+  background-color: #FFF;
+}
+
+#board {
+	width: 454px;
+	height: 454px;
+	margin: 40px auto;
+	border: 2px solid;
+  border-color: #fff;
+}
+
+.board-space {
+	background-color: #F6CD61;
+	width: 150px;
+	height: 150px;
+	float: left;
+	border: 2px solid;
+  border-color: #fff;
+  transition: background-color 0.25s ease;
+}
+
+.board-space:hover {  
+	background-color: #C4A44D;
+}
